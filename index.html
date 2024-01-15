@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Resposive Website</title>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+    <!-- JQuery Cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- waypoints cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- counter Up Cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/33abaaf2c1.js" crossorigin="anonymous"></script>
+    <!-- Animation Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--My Styles-->
+    <link rel="stylesheet" href="css/myStyles_framework.css">
+    <link rel="stylesheet" href="css/myStyles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- header Start -->
+    <header class="headerSec">
+        <div class="headerTop">
+            <div class="container-lg container-xl container-xxl">
+                <div class="pull_parent">
+                    <div class="pullLeft ">
+                        <ul class="pull_info">
+                            <li><i class="fa-solid fa-envelope"></i></li>
+                            <li><a href="mailto:example@gmail.com">example@gmail.com</a></li>
+                            <li class="mr"><i class="fa-solid fa-location-dot"></i></li>
+                            <li><span>30 Comercal Road, Australia</span></li>
+                            <li class="mr"><i class="fa-solid fa-phone"></i></li>
+                            <li><a href="tel:+ (888) 452 1505">+ (888) 452 1505</a></li>
+                        </ul>
+                    </div>
+                    <div class="pullRight">
+                        <ul class="social_link">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header Lower -->
+        <div class="headerLower">
+            <div class="container-lg container-xl container-xxl">
+                <div class="navbar">
+                    <a href="#" class="logo"><img src="images/logo.png" alt="" class="img-fluid"></a>
+                    <div class="navMenu_parent">
+                        <div class="naveMenu">
+                            <ul class="menu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Clients</a></li>
+                                <li><a href="#">Price</a></li>
+                                <li><a href="#">Our Blog</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="outerBox">
+                            <a href="#" class="searchBox"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <div class="innerbox">
+                                <div class="navSideBar_btn"><label for="mobileMenuShower" class="closeIcon"
+                                    ><i class="fa-solid fa-bars"></i></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <!-- mobile menu -->
+            <input id="mobileMenuShower" type="checkbox" checked/>
+            <div class="bgBlack"></div>
+
+            <div class="mobileMenu_Content">
+                <a href="#" class="mblMenu_logo"><img src="images/logo.png" alt="" class="img-fluid"></a>
+
+                <div class="crossBtn"> <label for="mobileMenuShower" class="closeIcon"
+                    ><i class="fa-solid fa-xmark"></i
+                  ></label></div>
+
+                <ul class="menuContent">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Our Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>      
+    </header>
+    <!-- header End -->
+
+    <!-- Slider Start -->
+    <section class="slider">
+        <div id="slider-1" class="owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+                <div class="owl-stage">
+
+                    <div class="owl-item">
+                        <div class="owl_slider_content" style=" background-image: url(images/slide-1.png);">
+                            <div class="bg_black_slider"></div>
+                            <div class="owl_slider_text">
+                                <h1 class="animate__animated animate__backInDown animate__delay-.5s">Get Mentored <br> By our Company.</h1>
+                                <p class="animate__animated animate__backInDown animate__delay-.5s">Without consulting, plans stay as plans.</p>
+                                <a href="#"><i class="fa-solid fa-phone"></i> <span>Free Consultation</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="owl_slider_content" style=" background-image: url(images/slide-1.png);">
+                            <div class="bg_black_slider"></div>
+                            <div class="owl_slider_text">
+                                <h1 class="animate__animated animate__backInDown animate__delay-.5s">Get Mentored <br> By our Company.</h1>
+                                <p class="animate__animated animate__backInDown animate__delay-.5s">Without consulting, plans stay as plans.</p>
+                                <a href="#"><i class="fa-solid fa-phone"></i> <span>Free Consultation</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="owl_slider_content" style=" background-image: url(images/slide-1.png);">
+                            <div class="bg_black_slider"></div>
+                            <div class="owl_slider_text">
+                                <h1 class="animate__animated animate__backInDown animate__delay-.5s">Get Mentored <br> By our Company.</h1>
+                                <p class="animate__animated animate__backInDown animate__delay-.5s">Without consulting, plans stay as plans.</p>
+                                <a href="#"><i class="fa-solid fa-phone"></i> <span>Free Consultation</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <div class="slider_hidden_overflow">
+            <div id="slider-2" class="owl-carousel owl-theme owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item owl-mar">
+                            <label for="clicked_custom"><div class="thum_box"><img src="images/author-1.jpg" alt=""></div></label>
+                        </div>
+                        <div class="owl-item owl-mar">
+                            <label for="clicked_custom"><div class="thum_box"><img src="images/author-2.jpg" alt=""></div></label>
+                        </div>  <div class="owl-item owl-mar">
+                            <label for="clicked_custom"><div class="thum_box"><img src="images/author-3.jpg" alt=""></div></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Slider End -->
+
+<!-- Title Content Start -->
+    <section class="title_sec">
+        <div class="container-lg container-xl container-xxl">
+            <div class="title_cotent">
+                <div class="title center">
+                    <div class="circle_parent">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <h4>Our Awesome Serivces</h4>
+                </div>
+                <h1>We've many services to <br> solve problems.</h1>
+                <p>Collaborate Consulting exists to find the place where to being seemingly
+                    disparate interests meet from that point.</p>
+            </div>
+        </div>
+    </section>
+<!-- Title Content End -->
+
+<!-- Service Carosel Box Start -->
+<section class="service_carosel">
+    <div class="container-lg container-xl container-xxl">
+
+        <div class="owl_carosel_box_parent">
+            <div id="owl_carosel_box_" class="owl-carousel owl-theme owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                
+                        <div class="owl-item ">
+                            <div class="content-parent">
+                               <div class="inner_box" style="background: url(images/pattern-1.png);">
+                                <span class="icon_box"><i class="fa-solid fa-chart-line"></i></span>
+                                <div class="triangle_img"><img src="images/arrow-1.png" alt="" class="img-fluid"></div>
+                                <h2>Program management</h2>
+                                <p>We develop the relationships that underpin the next phase in your organisation.</p>
+                               </div>
+                               <div class="outer_box_hover" style="background-image: url(images/service-1.jpg);">
+                                    <div class="text_hover">
+                                        <div class="img_pattern_2"><img src="images/pattern-2.png" alt="" class="img-fluid"></div>
+                                        <h2>Program Management</h2>
+                                    </div>
+                                    <div class="circle_arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                               </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item ">
+                            <div class="content-parent">
+                               <div class="inner_box" style="background: url(images/pattern-1.png);">
+                                <span class="icon_box"><i class="fa-solid fa-lightbulb"></i></span>
+                                <div class="triangle_img"><img src="images/arrow-1.png" alt="" class="img-fluid"></div>
+                                <h2>Program management</h2>
+                                <p>We develop the relationships that underpin the next phase in your organisation.</p>
+                               </div>
+                               <div class="outer_box_hover" style="background-image: url(images/service-1.jpg);">
+                                    <div class="text_hover">
+                                        <div class="img_pattern_2"><img src="images/pattern-2.png" alt="" class="img-fluid"></div>
+                                        <h2>Program Management</h2>
+                                    </div>
+                                    <div class="circle_arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                               </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item ">
+                            <div class="content-parent">
+                               <div class="inner_box" style="background: url(images/pattern-1.png);">
+                                <span class="icon_box"><i class="fa-solid fa-user-group"></i></span>
+                                <div class="triangle_img"><img src="images/arrow-1.png" alt="" class="img-fluid"></div>
+                                <h2>Program management</h2>
+                                <p>We develop the relationships that underpin the next phase in your organisation.</p>
+                               </div>
+                               <div class="outer_box_hover" style="background-image: url(images/service-1.jpg);">
+                                    <div class="text_hover">
+                                        <div class="img_pattern_2"><img src="images/pattern-2.png" alt="" class="img-fluid"></div>
+                                        <h2>Program Management</h2>
+                                    </div>
+                                    <div class="circle_arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                               </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="owl-dots">
+                    <div role="button" class="customNextBtn owl-dot active"><span></span></div>
+                    <div role="button" class="customNextBtn owl-dot"><span></span></div>
+                    <div role="button" class="customNextBtn owl-dot"><span></span></div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Service Carosel Box End -->
+
+<!-- About Section Start-->
+<section class="about">
+    <div class="container">
+        <div class="bg_pattern"><img src="images/pattern-4.png" alt="" class="img-fluid"></div>
+        <div class="row clear-fix">
+
+            <div class="about_content_left col-12 col-md-12 col-lg-6">
+                <div class="title">
+                    <div class="circle_parent">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <h4>About Our Company</h4>
+                </div>
+                <h1>Made to measure: <br> Getting design leadership.</h1>
+                <p>Soon after Chris Kempczinski became CEO, the COVID-19 pandemic hit, and the restaurant chain suffered the worst quarter in its history.</p>
+
+                <a href="#"><i class="fa-solid fa-rocket"></i><span>Get Started</span></a>
+
+                   <ul class="text_about_list">
+                    <li> onsultio is a Global Institute </li>
+                    <li> eams Moving in Different Directions </li>
+                    <li> aking No Progress During Meetings </li>
+                    <li> nefficient Communication Silos </li>
+                   </ul>
+            </div>
+
+            <div class="about_content_right col-12 col-md-12 col-lg-6">
+                <div class="pattern_bg"><img src="images/pattern-3.png" alt="" class="img-fluid"></div>
+                <div class="image_woman"><img src="images/about.jpg" alt="" class="img-fluid"></div>
+                <div class="experiences_div">
+                    <div class="triangle_div">
+                        <div class="triable-1"></div>
+                        <div class="triable-2"></div>
+                        <div class="triable-3"></div>
+                    </div>
+                    <h2>15 Years Experiences</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="pattern_about"><img src="images/pattern-5.png" alt="" class="img-fluid"></div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- About Section End-->
+
+<!-- Counter Section Start-->
+<section class="counter">
+    <div class="container-lg container-xl container-xxl">
+        <div class="inner_container">
+            <div class="row clear-fix">
+                <div class="counter_column col-lg-3 col-sm-6">
+                    <div class="icon_counter"><i class="fa-regular fa-star"></i></div>
+                    <div class="number">
+                        <i class="i-4">+</i>
+                        <h2 class="counter_num">1542</h2>
+                        <p>Satisfied Clients</p>
+                    </div>
+                </div>
+                <div class="counter_column col-lg-3 col-sm-6">
+                    <div class="icon_counter"><i class="fa-solid fa-chart-line"></i></div>
+                    <div class="number">
+                        <i class="i-3">+</i>
+                        <h2 class="counter_num">5021</h2>
+                        <p>Activate Project</p>
+                    </div>
+                </div>
+                <div class="counter_column col-lg-3 col-sm-6">
+                    <div class="icon_counter"><i class="fa-solid fa-people-group"></i></div>
+                    <div class="number">
+                        <i class="i-1">+</i>
+                        <h2 class="counter_num">2022</h2>
+                        <p>Expert Team</p>
+                    </div>
+                </div>
+                <div class="counter_column col-lg-3 col-sm-6">
+                    <div class="icon_counter"><i class="fa-solid fa-trophy"></i></div>
+                    <div class="number">
+                        <i class="i-2">+</i>
+                        <h2 class="counter_num">999</h2>
+                        <p>Aswards Winning</p>
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Counter Section End-->
+
+<!-- Accorion & Form Section Start-->
+<section class="accorion_form_sec">
+    <div class="left_bg_pic" style="background: url(images/pattern-6.png) no-repeat rgb(236, 236, 236);"></div>
+    <div class="right_bg_pic" style="background: url(images/pattern-7.png) center center / 627px repeat rgb(0, 126, 242);"></div>
+    <div class="container-lg container-xl container-xxl">
+        <div class="row clear-fix z-index">
+            <div class="accorio_column col-lg-12 col-xl-6">
+                <div class="content_accorion">
+                    <h2>Learn more from frequently asked questions:</h2>
+                    <div class="accrion_parent">
+                        <ul class="accorion">
+                            <li>
+                                <label for="first">The Simple Metric That's Taking Over Big Business <span>&#11208;</span></label>
+                                <input type="radio" name="arrorion" id="first">
+                                <div class="content_txt" style=" background-image: url(images/contact.png);">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum necessitatibus, iure labore provident suscipit minus aliquam architecto animi vel placeat accusamus assumenda voluptatibus rerum autem ducimus, excepturi, itaque deleniti tempora.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <label for="second">Increase in service quality and customer satisfaction <span>&#11208;</span></label>
+                                <input type="radio" name="arrorion" id="second">
+                                <div class="content_txt" style=" background-image: url(images/contact.png);">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum necessitatibus, iure labore provident suscipit minus aliquam architecto animi vel placeat accusamus assumenda voluptatibus rerum autem ducimus, excepturi, itaque deleniti tempora.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <label for="third">Development of optimized customer communication <span>&#11208;</span></label>
+                                <input type="radio" name="arrorion" id="third" checked>
+                                <div class="content_txt" style=" background-image: url(images/contact.png);">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum necessitatibus, iure labore provident suscipit minus aliquam architecto animi vel placeat accusamus assumenda voluptatibus rerum autem ducimus, excepturi, itaque deleniti tempora.</p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="form_column col-lg-12 col-xl-6">
+                <div class="form_content">
+                    <div class="man_img"><img src="images/image-1.png" alt="" class="img-fluid"></div>
+                <h2>We make business successful!</h2>
+                <p>Make a free consultation with us.</p>
+
+                <div class="form_box">
+                    <form action="#" method="post">
+                        <ul class="formList">
+                            <li>
+                                <label for="">
+                                    <span><i class="fa-solid fa-user"></i></span>
+                                    Name
+                                </label>
+                                <input type="text" name="name" id="name" placeholder="Jhon Doe">
+                            </li>
+                            <li>
+                                <label for="">
+                                    <span><i class="fa-solid fa-phone"></i></span>
+                                    Phone
+                                </label>
+                                <input type="number" name="phone" id="phone" placeholder="+88 2135 67945">
+                            </li>
+                            <li>
+                                <label for="">
+                                    <span><i class="fa-solid fa-envelope"></i></span>
+                                    E-mail
+                                </label>
+                                <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                            </li>
+                            <li>
+                                <label for="services">
+                                    <span><i class="fa-solid fa-building-columns"></i></span>
+                                    Services
+                                </label>
+                                <select name="services" id="services">
+                                    <option value="Business Consulting">Business Consulting</option>
+                                    <option value="Business One">Business One</option>
+                                    <option value="Business Two">Business Two</option>
+                                    <option value="Business Three">Business Three</option>
+                                </select>
+                            </li>
+                            <li>
+                                <button type="submit">Get a Free Consultation <span>&#8594;</span></button>
+                            </li>
+                        </ul>
+                    </form>
+                    <span class="info">Your personal information will be hidden</span>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Accorion & Form Section End-->
+
+<!-- Title Content Start -->
+<section class="title_sec">
+    <div class="container-lg container-xl container-xxl">
+        <div class="title_cotent">
+            <div class="title center">
+                <div class="circle_parent">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+                <h4>Our Awesome Serivces</h4>
+            </div>
+            <h1>We've many services to <br> solve problems.</h1>
+            <p>We have worked with companies across the full spectrum of IT services, from
+                cloud, hosting, andinfrastructure providers to outsourcers.</p>
+        </div>
+    </div>
+</section>
+<!-- Title Content End -->
+
+<!-- Sponsor Section Start -->
+<section class="sponsor_sec">
+    <div class="container-lg container-xl container-xxl">
+        <div class="sponsor_logo_row">
+            <div class="sponsor owl-carousel owl-theme">
+                <div class="item"><img src="images/1.png" alt="sponsor" class="img-fluid size"></img></div>
+                <div class="item"><img src="images/2.png" alt="sponsor" class="img-fluid size"></img></div>
+                <div class="item"><img src="images/3.png" alt="sponsor" class="img-fluid size"></img></div>
+                <div class="item"><img src="images/4.png" alt="sponsor" class="img-fluid size"></img></div>
+                <div class="item"><img src="images/5.png" alt="sponsor" class="img-fluid size"></img></div>
+                <div class="item"><img src="images/6.png" alt="sponsor" class="img-fluid size"></img></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sponsor Section end -->
+
+<!-- support section start -->
+<section class="support" style="background-image: url(images/company_bg_img.jpg);">
+    <div class="container-lg container-xl container-xxl">
+        <div class="support_content">
+            <div class="layer" style="background-image: url(images/pattern-8.png);"></div>
+            <div class="text_support">
+                <h2>We are available</h2>
+                <h3>24 X 7 X 365</h3>
+                <p>Call us at:</p>
+                <h1>+3-345-368-0245</h1>
+                <a href="#"><i class="fa-solid fa-comments"></i> or <span class="color_cls">Live Chat</span>with us</a>
+                <p>for real time support.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- support section end -->
+
+<!-- step section start -->
+<section class="step_sec" style=" background-image: url(images/pattern-9.png);">
+    <div class="container-lg container-xl container-xxl">
+        <div class="title_cotent mr_btm">
+            <div class="title ">
+                <div class="circle_parent">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+                <h4>Our Awesome Serivces</h4>
+            </div>
+            <h1 class="left">Some easy steps <br>
+                to get started!</h1>
+        </div>
+
+        <div class="row clear-fix">
+            <div class="step_col col-xl-4 col-lg-6 col-sm-12">
+                <div class="innter_content_">
+                    <div class="logo_img_"><img src="images/step-1.png" alt="" class="img-fluid"></div>
+                    <div class="step_number">1</div>
+                    <h2>Make a business plan</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="step_col col-xl-4 col-lg-6 col-sm-12">
+                <div class="innter_content_">
+                    <div class="logo_img_"><img src="images/step-2.png" alt="" class="img-fluid"></div>
+                    <div class="step_number">2</div>
+                    <h2>Make a business plan</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="step_col col-xl-4 col-lg-6 col-sm-12">
+                <div class="innter_content_">
+                    <div class="logo_img_"><img src="images/step-3.png" alt="" class="img-fluid"></div>
+                    <div class="step_number">3</div>
+                    <h2>Make a business plan</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- step section end -->
+
+<!-- case Section start -->
+<section class="case_sec">
+    <div class="case_sec_row">
+        <div class="left_case_content">
+            <div id="case_owl_carousel" class="owl-carousel owl-theme owl-loaded">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage p_rel">
+                        <div class="owl-item"><img src="images/image-2.jpg" alt=""></div>
+                        <div class="owl-item"><img src="images/image-3.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="custom_owl-nav">
+                    <div class="owl-next"><span class="right_arrow_">&#129170;</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="right_case_content" style="background: url(images/pattern-10.png) right center no-repeat;">
+           <div class="text_tit">
+                <div class="title ">
+                    <div class="circle_parent">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                    </div>
+                    <h4>Case Studies</h4>
+                </div>
+                <h1>We're driven to make <br> the complex simple.</h1>
+           </div>
+          
+           <div class="market_box">
+                <div class="case_img"><img src="images/group.png" alt="" class="img-fluid"></div>
+                <h2>A Go-to-Market Redesign <br> Helps a Tech Company Thrive</h2>
+                <p>Our client, a $4 billion provider of data-center infrastructure, asked us to help redesign its go-to-market approach to better.</p>
+                <a href="#"><i class="fa-solid fa-comments"></i> Read More</a>
+           </div>
+           <div class="case_list_p">
+            <ul class="case_list">
+                <li><span class="case_icon"><i class="fa-solid fa-crown"></i></span><p>Best quality support</p></li>
+                <li><span class="case_icon"><i class="fa-solid fa-hands-holding-circle"></i></span><p>Money back  guarantee</p></li>
+                <li><span class="case_icon"><i class="fa-solid fa-user"></i></span><p>Expert team  members</p></li>
+                <li><span class="case_icon"><i class="fa-brands fa-canadian-maple-leaf"></i></span><p>Cheap price provided</p></li>
+                <li><a href="#">Learn more about us &#129062;</a></li>
+            </ul>
+       </div>
+        </div>
+    </div>
+</section>
+<!-- case Section end -->
+
+<!-- title start-->
+<section class="pricing">
+    <div class="container-lg container-xl container-xxl">
+        <div class="title_cotent">
+            <div class="title center">
+                <div class="circle_parent">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+                <h4>Our Pricing</h4>
+            </div>
+            <h1>We've offered the best <br> pricing for you.</h1>
+            <p>We have worked with companies across the full spectrum of IT services, from
+                cloud, hosting, andinfrastructure providers to outsourcers.</p>
+        </div>
+    </div>
+</section>
+<!-- title end -->
+
+    
+  <!-- Pricing Section -->
+  <section class="pricing-section" id="pricing" style="background-image:url(images/pattern-11.png)">
+    <div class="container-lg container-xl container-xxl">
+
+        <div class="pricing-tabs tabs-box">
+
+            <!--Tab Btns-->
+            <div class="buttons-outer">
+                <ul class="tab-buttons clearfix">
+                    <li data-tab="#prod-monthly" class="tab-btn active-btn">Monthly</li>
+                    <li data-tab="#prod-yearly" class="tab-btn">Annually</li>
+                </ul>
+            </div>
+
+            <!-- Discount -->
+            <div class="discount"><p>** Get a huge discount for annual package!</p></div>
+            <!-- End Discount -->
+
+            <!-- Tabs Container -->
+            <div class="tabs-content">
+
+                <!-- Tab -->
+                <div class="tab active-tab" id="prod-monthly">
+                    <div class="content">
+                        <div class="row clearfix">
+
+                            <!-- Price Block -->
+                            <div class="price-block col-lg-4 col-md-6 col-sm-12">
+                                <div class="inner-box">
+                                    <div class="price"><span>$15</span> /Month</div>
+                                    <h2>Basic</h2>
+                                    <div class="text">We have worked with companies across <br> andinfrastructure providers.</div>
+                                    <ul class="price-list">
+                                        <li><i class="fa-regular fa-circle-check"></i>Cost Transformation</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Experience Leadership</li>
+                                        <li class="hide"><i class="fa-regular fa-circle-check"></i>Customer Episode Design</li>
+                                        <li class="hide"><i class="fa-regular fa-circle-check"></i>Customer Value Management</li>
+                                    </ul>
+                                    <div class="btn-box">
+                                        <a href="#" class="start-btn theme-btn">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Price Block -->
+                            <div class="price-block col-lg-4 col-md-6 col-sm-12">
+                                <div class="inner-box">
+                                    <div class="price"><span>$45</span> /Month</div>
+                                    <h2>Standrad</h2>
+                                    <div class="text">We have worked with companies across <br> andinfrastructure providers.</div>
+                                    <ul class="price-list">
+                                        <li><i class="fa-regular fa-circle-check"></i>Cost Transformation</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Experience Leadership</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Episode Design</li>
+                                        <li class="hide"><i class="fa-regular fa-circle-check"></i>Customer Value Management</li>
+                                    </ul>
+                                    <div class="btn-box">
+                                        <a href="#" class="start-btn theme-btn">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Price Block -->
+                            <div class="price-block col-lg-4 col-md-6 col-sm-12">
+                                <div class="inner-box">
+                                    <div class="price"><span>$75</span> /Month</div>
+                                    <h2>Premium</h2>
+                                    <div class="text">We have worked with companies across <br> andinfrastructure providers.</div>
+                                    <ul class="price-list">
+                                        <li><i class="fa-regular fa-circle-check"></i>Cost Transformation</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Experience Leadership</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Episode Design</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Value Management</li>
+                                    </ul>
+                                    <div class="btn-box">
+                                        <a href="#" class="start-btn theme-btn">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Tab-->
+                <div class="tab" id="prod-yearly">
+                    <div class="content">
+                        <div class="row clearfix">
+
+                            <!-- Price Block -->
+                            <div class="price-block col-lg-4 col-md-6 col-sm-12">
+                                <div class="inner-box">
+                                    <div class="price"><span>$15</span> /Month</div>
+                                    <h2>Basic</h2>
+                                    <div class="text">We have worked with companies across <br> andinfrastructure providers.</div>
+                                    <ul class="price-list">
+                                        <li><i class="fa-regular fa-circle-check"></i>Cost Transformation</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Experience Leadership</li>
+                                        <li class="hide"><i class="fa-regular fa-circle-check"></i>Customer Episode Design</li>
+                                        <li class="hide"><i class="fa-regular fa-circle-check"></i>Customer Value Management</li>
+                                    </ul>
+                                    <div class="btn-box">
+                                        <a href="#" class="start-btn theme-btn">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Price Block -->
+                            <div class="price-block col-lg-4 col-md-6 col-sm-12">
+                                <div class="inner-box">
+                                    <div class="price"><span>$45</span> /Month</div>
+                                    <h2>Standrad</h2>
+                                    <div class="text">We have worked with companies across <br> andinfrastructure providers.</div>
+                                    <ul class="price-list">
+                                        <li><i class="fa-regular fa-circle-check"></i>Cost Transformation</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Experience Leadership</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Episode Design</li>
+                                        <li class="hide"><i class="fa-regular fa-circle-check"></i>Customer Value Management</li>
+                                    </ul>
+                                    <div class="btn-box">
+                                        <a href="#" class="start-btn theme-btn">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Price Block -->
+                            <div class="price-block col-lg-4 col-md-6 col-sm-12">
+                                <div class="inner-box">
+                                    <div class="price"><span>$75</span> /Month</div>
+                                    <h2>Premium</h2>
+                                    <div class="text">We have worked with companies across <br> andinfrastructure providers.</div>
+                                    <ul class="price-list">
+                                        <li><i class="fa-regular fa-circle-check"></i>Cost Transformation</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Experience Leadership</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Episode Design</li>
+                                        <li><i class="fa-regular fa-circle-check"></i>Customer Value Management</li>
+                                    </ul>
+                                    <div class="btn-box">
+                                        <a href="#" class="start-btn theme-btn">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="condition">* all terms & conditions are applied</div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- End Pricing Section -->
+
+<!-- CTN section start -->
+<section class="ctn" style="  background-image: url(images/2.jpg);">
+    <div class="color_" style="  background-image: url(images/pattern-12.png);"></div>
+    <div class="mobile_img"><img src="images/mobile.png" alt="" class="img-fluid"></div>
+    <div class="container-lg container-xl container-xxl">
+        <div class="content_ctn">
+            <h1>Have a great opportunity to <br> do <span style="color: #1e91fa;">consulting</span> anytime!</h1>
+            <div class="link_apps">
+                <div class="img_aro"><img src="images/arrow-3.png" alt="" class="img-fluid"></div>
+                <a href="#"><i class="fa-brands fa-google-play"></i>Google Play</a>
+                <a href="#"><i class="fa-solid fa-gamepad"></i>Play Store</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CTN section end -->
+
+<!-- CTA section start -->
+<section class="cta">
+    <div class="container-lg container-xl container-xxl">
+        <div class="title_cotent">
+            <div class="title center">
+                <div class="circle_parent">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+                <h4>Our Insights</h4>
+            </div>
+            <h1>We've offered the best <br> pricing for you.</h1>
+            <p>We have worked with companies across the full spectrum of IT services, from
+                cloud, hosting, andinfrastructure providers to outsourcers.</p>
+        </div>
+
+        <div class="cta_owl_carosel">
+            <div class="cta_carosel owl-carousel owl-theme owl-loaded">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                      <div class="news_block owl-item">
+                        <div class="innter_news_block">
+                            <div class="news_img"><a href="#"><img src="images/news-1.jpg" alt="" class="img-fluid"></a></div>
+                            <div class="link_s"><a href="#"><h3>Strategic and commercial way...</h3></a></div>
+                            <div class="lower_Ncontent">
+                                <div class="date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <h3>January 1, 2024</h3>
+                                </div>
+                                <p>Far away, behind the word mountains, Vokalia and Consonantia, there live the they live in Bookmarksgrove right at the.</p>
+                                <a class="no_bg" href="#">read more <span>&#129170;</span></a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="news_block owl-item">
+                        <div class="innter_news_block">
+                            <div class="news_img"><a href="#"><img src="images/news-2.jpg" alt="" class="img-fluid"></a></div>
+                            <div class="link_s"><a href="#"><h3>Strategic and commercial way...</h3></a></div>
+                            <div class="lower_Ncontent">
+                                <div class="date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <h3>January 1, 2024</h3>
+                                </div>
+                                <p>Far away, behind the word mountains, Vokalia and Consonantia, there live the they live in Bookmarksgrove right at the.</p>
+                                <a class="no_bg" href="#">read more <span>&#129170;</span></a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="news_block owl-item">
+                        <div class="innter_news_block">
+                            <div class="news_img"><a href="#"><img src="images/news-3.jpg" alt="" class="img-fluid"></a></div>
+                            <div class="link_s"><a href="#"><h3>Strategic and commercial way...</h3></a></div>
+                            <div class="lower_Ncontent">
+                                <div class="date">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <h3>January 1, 2024</h3>
+                                </div>
+                                <p>Far away, behind the word mountains, Vokalia and Consonantia, there live the they live in Bookmarksgrove right at the.</p>
+                                <a class="no_bg" href="#">read more <span>&#129170;</span></a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CTA section end -->
+
+<!-- subscribe section start -->
+<section class="subscribe">
+    <div class="container-lg container-xl container-xxl">
+        <div class="innter_container_sub">
+            <div class="man_i" style="background-image: url(images/image-3.jpg);"></div>
+            <div class="main_bg_i" style=" background-image: url(images/pattern-13.png);"></div>
+            <div class="content_sub">
+                <h1>Stay ahead in a rapidly changing <br> world. <span style="color:#1e91fa">Subscribe</span> to our Insights.</h1>
+                <div class="subs">
+                    <form action="#">
+                        <ul>
+                            <li><input type="email" name="" id="mail_Now" placeholder="Enter your mail addrss..." required> <button type="submit" id="subs_btn">Subscribe now</button></li>
+                            <li><input type="checkbox" name="" id="aggree_">*I have read the Privacy Policy and agree to its terms.</li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="c_img"><img src="images/cta.png" alt="" class="img-fluid"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- subscribe section end -->
+
+<!-- Footer Top start -->
+<section class="footer_top" style=" background-image: url(images/pattern-14.png);">
+    <div class="container-lg container-xl container-xxl">
+        <div class="row clear-fix">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="footer_con">
+                    <div class="footer_logo"><img src="images/logo (1).png" alt="" class="img-fluid"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt to build your organic rankings, attraction.</p>
+                    <ul class="contact_list_foot">
+                        <li><i class="fa-solid fa-phone"></i> <a href="tel:1-888-452-1505">1-888-452-1505</a> </li>
+                        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:envato@mail.com">envato@mail.com</a> </li>
+                        <li><i class="fa-solid fa-map"></i>30 Commercial Road, Australia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="footer_con">
+                    <h3>Links</h3>
+                   <ul class="footer_menu_link">
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Home</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Services</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>About us</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Testimonial</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>News</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Contact</a></li>
+                   </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="footer_con">
+                    <h3>Support</h3>
+                   <ul class="footer_menu_link">
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Contact Us</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Submit a Ticket</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Visit Knowledge Base</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Support System</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Refund Policy</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i>Professional Services</a></li>
+                   </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="footer_con">
+                   <h3>Gallery</h3>
+                   <div class="row">
+                        <div class="col-4"><img src="images/footer-gallery-thumb-1.jpg" alt=""></div>
+                        <div class="col-4"><img src="images/footer-gallery-thumb-2.jpg" alt=""></div>
+                        <div class="col-4"><img src="images/footer-gallery-thumb-3.jpg" alt=""></div>
+                   </div>
+                   <div class="row">
+                    <div class="col-4"><img src="images/footer-gallery-thumb-4.jpg" alt=""></div>
+                    <div class="col-4"><img src="images/footer-gallery-thumb-5.jpg" alt=""></div>
+                    <div class="col-4"><img src="images/footer-gallery-thumb-6.jpg" alt=""></div>
+                    </div>   
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Footer Top end -->
+
+<!-- Footer Bottom start-->
+<section class="footer_bottom">
+    <div class="container-lg container-xl container-xxl">
+        <div class="footer_btm_content">
+            <div class="left_btm">
+                <span>&#169;</span> All rights reserved <a href="#">Themexriver</a>
+            </div>
+            <div class="right_btm">
+                <ul class="link">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-basketball"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer Bottom end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-------------------- JS Files--------------- -->
+    <!-- Jquery -->
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <!-- Owlcarousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- MyScript -->
+    <script src="js/myScript.js"></script>
+</body>
+</html>
